@@ -1,0 +1,25 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prod.server.js",
+  "scripts": {
+    "start": "nodemon prod.server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "js-base64": "^3.7.2",
+    "pinyin": "^2.10.2",
+    "xsrf": "^1.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.15"
+  }
+}
