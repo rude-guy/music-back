@@ -2,9 +2,9 @@
   "name": "music",
   "version": "1.0.0",
   "description": "",
-  "main": "prod.server.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "nodemon prod.server.js"
+    "start": "nodemon ./src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,10 +15,13 @@
     "cookie-parser": "^1.4.6",
     "express": "^4.17.2",
     "js-base64": "^3.7.2",
-    "pinyin": "^2.10.2",
-    "xsrf": "^1.0.0"
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "nanoid": "^3.3.6",
+    "pinyin": "^2.10.2"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "nodemon": "^2.0.15"
   }
